@@ -1,0 +1,14 @@
+
+# Simple Example ABB_IRB6640 Service
+service example.ABB_IRB6640
+
+option version 0.8
+
+object ABB_IRB6640Solver
+    property int32 value
+	function double add(double a, double b)
+	function double dot(double[] a, double[] b)
+    function double[] sort_sequence(double[] seq, string dir)
+    function double[] set_joints(double[] seq, string dj)
+	
+end object
