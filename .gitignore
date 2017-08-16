@@ -35,3 +35,9 @@
 *.sln
 
 build/
+Release/
+Debug/
+
+*.vs
+*.VC.db
+x64
