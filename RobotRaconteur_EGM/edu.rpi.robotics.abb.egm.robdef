@@ -1,0 +1,9 @@
+service edu.rpi.robotics.abb.egm
+
+option version 0.8
+
+object EGM
+	property double[6] joint_angle
+	property double[6] joint_angle_setpoint
+end object
+

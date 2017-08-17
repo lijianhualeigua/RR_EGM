@@ -1,9 +1,0 @@
-#Example service to provide interface to Externally Guided Motion
-service example.RR_EGM
-
-option version 0.8
-
-object IRB6640
-    function void setjoints(double[] joint)
-    function double[] readjoints()
-end object
